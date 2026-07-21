@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang chủ Sinh viên</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 20px; background: #f8fafc; }
+    .card { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #e2e8f0; }
+    .btn { display: inline-block; padding: 10px 16px; background: #0284c7; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Thông Tin Sinh Viên</h1>
+    <p><strong>Họ và tên:</strong> Nguyễn Văn A (Sửa lại tên thật của bạn)</p>
+    <p><strong>Mã sinh viên:</strong> 12345678 (Sửa lại mã SV của bạn)</p>
+  </div>
+  <div class="card">
+    <h2>Kết quả Bài tập 17</h2>
+    <img src="img/baitap17_result.png" alt="Kết quả bài 17" style="max-width:100%; border-radius: 6px;">
+  </div>
+  <div class="card">
+    <h2>Bài tập 19</h2>
+    <a href="baitap19.html" class="btn">🎮 Chơi Game Ghép Đôi Thẻ</a>
+  </div>
+</body>
+</html>
